@@ -1,0 +1,1 @@
+from src.Wineproject.config import configuration
