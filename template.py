@@ -19,7 +19,7 @@ list_of_files =[
     f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "params.yaml",
-    "schema.yaml",
+    "schema.yaml", 
     "main.py",
     "app.py",
     "requirements.txt",
@@ -31,7 +31,7 @@ list_of_files =[
 
 
 for filepath in list_of_files:
-    filepath = Path(filepath)
+    filepath = Path(filepath) #we use path to get prevent forwod and backword slash issue
 
     filedir, filename = os.path.split(filepath) #split folder and file
     

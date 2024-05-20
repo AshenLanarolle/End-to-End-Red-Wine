@@ -5,9 +5,9 @@ with open("README.md","r", encoding="utf-8") as f:
 
 __version__= "0.0.0"
 
-REPO_NAME = "END-TO-END-RED-WINE-Implementation"
+REPO_NAME = "END-TO-END-RED-WINE-Implementation"# Name of project
 AUTHOR_USER_NAME= "AsheLanarolle" #github username
-SRC_REPO = "WineProject"
+SRC_REPO = "WineProject"#folder inside src
 AUTHOR_EMAIL = "ashenkavishkao97@gmail.com"
 
 
